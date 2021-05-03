@@ -38,6 +38,12 @@ namespace gv {
 				}
 			} while (!sorted);
 		}
+
+		bool step() {
+			for (int i = 0; i < arr.size(); i++) {
+				arr[i].step();
+			}
+		}
 	};
 }
 
